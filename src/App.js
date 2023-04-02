@@ -20,8 +20,8 @@ function App() {
               <p className='text-white fw-200 fs-3'>Plans now start at US$2.99/month.</p>
               <p className='text-white fw-200 fs-4'>Ready to watch? Enter your email to create or restart your membership.</p>
               <div className='input-email'>
-                <input type="text" className='email-input' placeholder='Email Address'/>
-                <button>Get Started <i class="fa-solid fa-angle-right"></i></button>
+                <input type="text" className='email-input py-3 px-3 w-50' placeholder='Email Address'/>
+                <button className=' text-white mx-1 py-3 px-3 fw-bold fs-5'>Get Started <i class="fa-solid fa-angle-right"></i></button>
               </div>
             </div>
             
@@ -32,7 +32,7 @@ function App() {
 
       {/* section 2 */}
 
-      <div className='container-fluid m-0 bg-black my-3'>
+      <div className='container-fluid m-0 bg-black my-3 text-sm-center'>
         <div className="container py-5 ">
           <div className="row align-items-center">
             <div className="col-md-6 md:text-left">
@@ -49,7 +49,7 @@ function App() {
 
       {/* setion 3 */}
 
-      <div className='container-fluid m-0 bg-black my-3'>
+      <div className='container-fluid m-0 bg-black my-3 text-sm-center'>
         <div className="container py-5 ">
           <div className="row align-items-center">
             
@@ -81,7 +81,7 @@ function App() {
 
 
     {/* section 5 */}
-      <div className='container-fluid m-0 bg-black my-3'>
+      <div className='container-fluid m-0 bg-black my-3 text-sm-center'>
         <div className="container py-5 ">
           <div className="row align-items-center">
             
@@ -113,9 +113,9 @@ function App() {
             <p className='text-white fs-4 my-4'>Ready to watch? Enter your email to create or restart your membership.</p>
 
             <div className='input-email'>
-                <input type="text" className='email-input w-25' placeholder='Email Address'/>
-                <button>Get Started <i class="fa-solid fa-angle-right"></i></button>
-              </div>
+                <input type="text" className='email-input py-3 px-3 w-25' placeholder='Email Address'/>
+                <button className=' text-white mx-1 py-3 px-3 fw-bold'>Get Started <i class="fa-solid fa-angle-right"></i></button>
+            </div>
           </div>
         </div>
       </div>
@@ -127,25 +127,25 @@ function App() {
         <div className="container py-5 ">
           <a href="" className='text-white'>Questions? Contact us.</a>
           <div className="row align-items-center mt-4">
-            <div className="col-md-3">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
               <p><a href="" className='text-white'>FAQ</a></p>
               <p><a href="" className='text-white'>Investor Relations</a></p>
               <p><a href="" className='text-white'>Privacy</a></p>
               <p><a href="" className='text-white'>Speed Test</a></p>
             </div>
-            <div className="col-md-3">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
               <p><a href="" className='text-white'>Help Center</a></p>
               <p><a href="" className='text-white'>Jobs</a></p>
               <p><a href="" className='text-white'>Cookie Preferences</a></p>
               <p><a href="" className='text-white'>Legal Notices</a></p>
             </div>
-            <div className="col-md-3">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
               <p><a href="" className='text-white'>Account</a></p>
               <p><a href="" className='text-white'>Ways to Watch</a></p>
               <p><a href="" className='text-white'>Corporate Information</a></p>
               <p><a href="" className='text-white'>Only on Netflix</a></p>
             </div>
-            <div className="col-md-3">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
               <p><a href="" className='text-white'>Media Center</a></p>
               <p><a href="" className='text-white'>Terms of Use</a></p>
               <p><a href="" className='text-white'>Contact Us</a></p>

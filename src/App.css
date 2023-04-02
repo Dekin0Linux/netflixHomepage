@@ -7,7 +7,6 @@ body{
   background-color: rgb(27, 27, 27);
 }
 
-
 .hero{
   width: 100%;
   height: 90vh;
@@ -43,26 +42,25 @@ body{
   margin: 10rem auto;
 }
 .email-input{
-  width: 40%;
+  /* width: 40%; */
   background-color: transparent;
   border: 1px solid white;
   background-color: rgb(27, 27, 27,0.4);
-  padding: 1rem;
+  /* padding: 0rem 1rem; */
   border-radius: 5px;
   outline: none;
   color: white;
-  font-size: 20px;
+  /* font-size: 17px; */
 }
 .input-email button{
   background-color: red;
   border: none;
-  font-size: 21px;
+  /* font-size: 21px; */
   color: white;
-  padding: 1rem;
-  margin: 0px 5px;
-  width: 20%;
+  /* padding: 1rem; */
+  /* margin: 0px 5px; */
+  /* width: 20%; */
   border-radius: 5px;
-
 }
 input::placeholder{
   color: white;

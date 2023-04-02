@@ -45,6 +45,51 @@ function Accordian() {
             </div>
             </div>
         </div>
+
+        
+        <div className="accordion-item my-3 py-2 bg-secondary">
+            <h2 className="accordion-header ">
+            <button className="accordion-button collapsed bg-secondary text-white fs-3 border-0 outline-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                How do i cancel ?
+            </button>
+            </h2>
+            <div id="flush-collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+
+            <div className="accordion-body text-start text-white fs-4">
+                <p>Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime..</p>
+            </div>
+            </div>
+        </div>
+
+        <div className="accordion-item my-3 py-2 bg-secondary">
+            <h2 className="accordion-header ">
+            <button className="accordion-button collapsed bg-secondary text-white fs-3 border-0 outline-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+               What can i watch on Netflix?
+            </button>
+            </h2>
+            <div id="flush-collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+
+            <div className="accordion-body text-start text-white fs-4">
+                <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+            </div>
+            </div>
+        </div>
+
+        <div className="accordion-item my-3 py-2 bg-secondary">
+            <h2 className="accordion-header ">
+            <button className="accordion-button collapsed bg-secondary text-white fs-3 border-0 outline-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+              Is Netflix good for kids?
+            </button>
+            </h2>
+            <div id="flush-collapseSix" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+
+            <div className="accordion-body text-start text-white fs-4">
+                <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.</p>
+                <p>Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+                </p>
+            </div>
+            </div>
+        </div>
     </div>
   )
 }
